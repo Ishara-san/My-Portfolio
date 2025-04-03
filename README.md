@@ -11,3 +11,7 @@
 
 ## Assignment 02
 [html web-site structure] (https://github.com/Ishara-san/My-Portfolio/blob/main/index.html)
+
+## portfolio with css
+[css web-site structure] (https://github.com/Ishara-san/My-Portfolio/tree/style)
+

@@ -80,11 +80,13 @@ header a:hover {
         gap: 15px;
         margin-top: 15px;
     }
-
     nav ul h3 {
         flex-direction: column;
     }
 }
+
+
+
 
 #home {
     position: relative;
@@ -97,9 +99,6 @@ header a:hover {
 #home>div{
     position: relative;
 }
-
-
-
 #home>div>div{
     width: fit-content;
     height: fit-content;
@@ -113,8 +112,6 @@ header a:hover {
 
     text-align: left;
 }
-
-
 #home>div:first-child>div>h3{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
@@ -129,90 +126,43 @@ header a:hover {
 
     margin: 0;
 }
-
-
 #home>div:first-child>div>h1{
     font-family: "Sen", sans-serif;
     font-size: 75px;
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: -4px;
-
 }
 #home>div:first-child>div>h2{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 32px;
 }
-
-#home>div:first-child>div>h2>mark {
-    background-color:#E2E2E2;
-    color: #A59D84;
-    padding: 3px 5px;
-    border-radius: 5px;
-}
-
-
 #home>div:first-child>div>p{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-
 #home>div:last-child{
     /*background-color: #3B4252;*/
     margin-left: -50px;
 }
-/*home connen butt */
-.connect-button {
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 13px;
-    background: #d8d0b2;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-
-
-}
-
-.connect-button:hover {
-    background: #c7b999;
-    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
-}
-
-.social-links a {
+.social-media a {
     display: inline-block;
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.3s, border 0.3s;
     gap: 50px;
 }
-
-
-.social-links a:hover {
-    /*background-color: rgba(0, 0, 0, 0.5); !* Dark circle background *!*/
+.social-media a:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark circle background */
     border: 2px solid #000; /* Border around the circle */
 }
-
-.social-links a img {
+.social-media a img {
     display: block;
 }
-.social-links  {
-
-}
-
-
-.profile-picture-container > img {
+.profile-photo > img {
     padding: 10px 0;
-    /*width: 400px;*/
-    width: 400px;
-
-    /*border: darkorchid 2px solid;*/
-    /*border-radius:20% ;*/
+    width: 550px;
+    border-radius: 50%;
+    border: 8px solid rgba(237, 255, 0, 0.68);
 }

@@ -1,0 +1,51 @@
+#about-description {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+#about-description h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#about-description h3,
+#about-description p,
+#about-description a {
+    text-align: left;
+    display: block;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.email-button {
+    width: 250px;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: #0056b3;
+}
+
+/* mobile devices */
+@media screen and (max-width: 425px) {
+    #about-description h3,
+    #about-description p,
+    #about-description a {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email-button {
+        margin-top: 20px;
+    }
+}

@@ -41,7 +41,20 @@
     font-size: 2rem;
 }
 
-
+.social-media a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s, border 0.3s;
+    gap: 50px;
+}
+.social-media a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #000;
+}
+.social-media a img {
+    display: block;
+}
 
 
 

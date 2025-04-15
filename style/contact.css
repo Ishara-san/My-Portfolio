@@ -8,22 +8,7 @@
     background-color: #ffffff;
     padding-bottom: 100px;
 }
-
-#contact-form {
-    border: 2px solid #333;
-    padding: 20px;
-    width: 400px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.section-header {
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-.contact-wrapper {
+.contact-full-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,80 +17,22 @@
     position: relative;
     max-width: 840px;
 }
-
-/* Left contact page */
-.form-horizontal {
-    /*float: left;*/
-    max-width: 400px;
-    font-family: 'Lato';
-    font-weight: 400;
-}
-
-.form-control,
-textarea {
-    max-width: 400px;
-    background-color: #000;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.send-button {
-    margin-top: 15px;
-    height: 34px;
+#contact-form {
+    border: 2px solid #333;
+    padding: 20px;
     width: 400px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
-
-.alt-send-button {
-    width: 400px;
-    height: 34px;
-    transition: all .2s ease-in-out;
-}
-
-.send-text {
-    display: block;
-    margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
-    letter-spacing: 2px;
-}
-
-.alt-send-button:hover {
-    transform: translate3d(0px, -29px, 0px);
+#contact>h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 #contact-form{
     border-color: black;
 }
 
-
-
-/*label {*/
-/*    display: inline-block;*/
-/*    width: 120px; !* Same length for all labels *!*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*input, textarea {*/
-/*    width: 100%;*/
-/*    padding: 8px;*/
-/*    margin-top: 5px;*/
-/*    margin-bottom: 15px;*/
-/*    border: 1px solid #ccc;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-/*button {*/
-/*    padding: 10px 20px;*/
-/*    background-color: #007BFF;*/
-/*    color: white;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*button:hover {*/
-/*    background-color: #0056b3;*/
-/*}*/
 
 /* Begin Right Contact Page */
 .direct-contact-container {
@@ -223,7 +150,7 @@ hr {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
-    .contact-wrapper {
+    .contact-full-div {
         display: flex;
         flex-direction: column;
     }

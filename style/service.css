@@ -1,0 +1,84 @@
+
+#service {
+    background-color: rgba(15,15,15,0.7);
+    color: #fff;
+    position: relative;
+}
+
+.skill-container-1{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.skill-container-1 div {
+    position: relative;
+    width: 150px;
+    height: 148px;
+    background-color: #323131;
+    gap: 100px;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+
+.skill-container-1 div>.img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    width: 114px;
+    height: auto;
+}
+
+.skill-container-2{
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.skill-container-2 div {
+    position: relative;
+    width: 150px;
+    height: 148px;
+    background-color: #323131;
+    gap: 100px;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+
+.skill-container-2 div>.img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    width: 114px;
+    height: auto;
+}
+
+
+
+#service h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 995px) {
+    #service{
+        position: relative;
+        top: -100px;
+    }
+}

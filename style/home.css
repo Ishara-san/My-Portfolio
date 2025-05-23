@@ -70,3 +70,60 @@
         padding: 20px 0;
     }
 }
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+  #home {
+        flex-direction: column;
+        height: auto; /*   height adjust karanna */
+    }
+
+    .home-left, .home-right {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+}
+
+/* Mobile Medium (375px) */
+@media (max-width: 375px) {
+  .social-media {
+    
+  }
+}
+
+/* Mobile Large (425px) */
+@media (max-width: 425px) {
+  .profile-photo img {
+    max-width: 250px;
+    border-width: 6px;
+  }
+}
+
+/* Tablet (768px)  */
+@media (max-width: 768px) {
+  #home {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home-left, 
+  .home-right {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+
+  .home-right {
+    padding: 2rem 0;
+      }
+
+  .profile-photo img {
+    max-width: 300px;
+  }
+}

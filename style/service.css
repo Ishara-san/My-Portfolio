@@ -1,17 +1,23 @@
 
 #service {
-    background-color: rgba(15,15,15,0.7);
-    color: #fff;
+    background-color: rgba(253, 253, 253, 0.7);
+    color: #020202;
     position: relative;
 }
-
+#service>h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+}
 .skill-container-1{
     position:relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
+    margin: 100px 20px 0px 20px;
+	
+
 }
 
 .skill-container-1 div {
@@ -23,6 +29,7 @@
     align-items: center;
     border-radius: 20px;
     margin-bottom: 90px;
+
 }
 
 .skill-container-1 div>.img {
@@ -81,4 +88,58 @@
         position: relative;
         top: -100px;
     }
+}
+
+
+
+
+
+/* Mobile Small (320px) */
+@media (max-width: 320px) {
+  .skill-container-1 div,
+  .skill-container-2 div {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skill-container-1 div > .img,
+  .skill-container-2 div > .img {
+    width: 70px;
+  }
+}
+
+/* Mobile Medium (375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .skill-container-1,
+  .skill-container-2 {
+    gap: 1rem;
+  }
+}
+
+/* Mobile Large (425px) */
+@media (min-width: 376px) and (max-width: 425px) {
+  .skill-container-1 div,
+  .skill-container-2 div {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Tablet (768px) */
+@media (min-width: 768px) {
+  .skill-container-1,
+  .skill-container-2 {
+    gap: 2rem;
+  }
+
+  .skill-container-1 div,
+  .skill-container-2 div {
+    width: 160px;
+    height: 160px;
+  }
+
+  .skill-container-1 div > .img,
+  .skill-container-2 div > .img {
+    width: 100px;
+  }
 }

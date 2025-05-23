@@ -1,5 +1,5 @@
 #about-posts {
-    padding: 40px 40px;
+    padding: 40px 40px 80px 40px;
 }
 
 .photo-list {
@@ -45,3 +45,31 @@
         height: auto;
     }
 }
+
+/*---------*/
+/* Mobile Small (320px) */
+@media (max-width: 320px) {
+  #about-posts {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .photo-list img {
+    height: 180px;
+  }
+}
+
+/* Mobile Medium (375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .photo-list img {
+    height: 200px;
+  }
+}
+
+/* Mobile Large (425px) */
+@media (min-width: 376px) and (max-width: 425px) {
+  .photo-list img {
+    height: 220px;
+  }
+}
+
+
